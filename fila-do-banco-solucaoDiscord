@@ -1,0 +1,21 @@
+// solução André Bezerra [MEDS] — 22/12/2022 11:55 - MED do DISCORD - DIO.
+
+import java.util.Scanner; 
+public class Main { 
+    public static void main(String[] args) { 
+ 
+    String[] nomesFila = new String[3]; 
+    Scanner reader = new Scanner(System.in); 
+
+    
+    for (int i = 0; i < nomesFila.length; ++i) {
+      nomesFila[i] = reader.nextLine();
+    }
+
+    int i = 0 
+    while (i < nomesFila.length){
+      System.out.println(nomesFila[i] + " - esta na posicao: " + (i+1));
+    }
+    reader.close();
+  } 
+}
